@@ -14,7 +14,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          This is a test page
+          Test press releases
         </h1>
 
         <div className={styles.grid}>
@@ -22,8 +22,8 @@ export default function Home() {
             <Link href="/news1" target="_blank" passHref >
               <div className={styles.card}>
                 <h2>Press release one</h2>
-                <p>28 July 2023</p>
-                <p>This is test body content for press release one.</p>
+                <p className={styles.cardDate}>28 July 2023</p>
+                <p className={styles.cardCopy}>This is test body content for press release one.</p>
                 </div>
             </Link>
          
@@ -31,8 +31,8 @@ export default function Home() {
             <Link  href="/news2" target="_blank" passHref>
               <div className={styles.card}>
                 <h2>Press release two</h2>
-                <p>28 July 2023</p>
-                <p>This is test body content for press release two.</p>
+                <p className={styles.cardDate}>28 July 2023</p>
+                <p className={styles.cardCopy}>This is test body content for press release two.</p>
                 </div>
             </Link>
     
