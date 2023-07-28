@@ -18,21 +18,28 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-          <Link href="news1" target="_blank" passHref className={styles.card}>
-            <h2>Press release one</h2>
-            <p>28 July 2023</p>
-            <p>This is test body content for press release one.</p>
-          </Link>
-
-          <Link href="news2" target="_blank" passHref className={styles.card}>
-            <h2>Press release two</h2>
-            <p>28 July 2023</p>
-            <p>This is test body content for press release two.</p>
-          </Link>
+       
+            <Link href="/news1" target="_blank" passHref >
+              <div className={styles.card}>
+                <h2>Press release one</h2>
+                <p>28 July 2023</p>
+                <p>This is test body content for press release one.</p>
+                </div>
+            </Link>
+         
+       
+            <Link  href="/news2" target="_blank" passHref>
+              <div className={styles.card}>
+                <h2>Press release two</h2>
+                <p>28 July 2023</p>
+                <p>This is test body content for press release two.</p>
+                </div>
+            </Link>
+    
         </div>
       </main>
 
-      <footer className={styles.footer}>
+      {/* <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -43,7 +50,7 @@ export default function Home() {
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
-      </footer>
+      </footer> */}
     </div>
   )
 }
