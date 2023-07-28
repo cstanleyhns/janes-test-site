@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -17,17 +18,17 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-          <a href="news1" className={styles.card}>
+          <Link href="news1" target="_blank" passHref className={styles.card}>
             <h2>Press release one</h2>
             <p>28 July 2023</p>
             <p>This is test body content for press release one.</p>
-          </a>
+          </Link>
 
-          <a href="news2" className={styles.card}>
+          <Link href="news2" target="_blank" passHref className={styles.card}>
             <h2>Press release two</h2>
             <p>28 July 2023</p>
             <p>This is test body content for press release two.</p>
-          </a>
+          </Link>
         </div>
       </main>
 
