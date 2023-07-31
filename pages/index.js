@@ -20,7 +20,7 @@ export default function Home() {
         <div className={styles.grid}>
        
             <Link href="/news1"  passHref >
-              <a target="_blank">
+              <a target="_blank" className="links">
                 <div className={styles.card}>
                   <h2>Press release one</h2>
                   <p className={styles.cardDate}>28 July 2023</p>
@@ -31,7 +31,7 @@ export default function Home() {
          
        
             <Link  href="/news2" target="_blank" passHref>
-              <a target="_blank">
+              <a target="_blank" className="links">
                 <div className={styles.card}>
                   <h2>Press release two</h2>
                   <p className={styles.cardDate}>28 July 2023</p>
