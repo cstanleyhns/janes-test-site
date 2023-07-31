@@ -96,6 +96,10 @@
   font-weight: bold;
 }
 
+.link {
+  color: pink;
+}
+
 .cardCopy {
   font-size: 0.8rem;
   font-style: italic;

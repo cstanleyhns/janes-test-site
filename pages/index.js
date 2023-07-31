@@ -20,21 +20,23 @@ export default function Home() {
         <div className={styles.grid}>
        
           
-        <a href="https://janes-test-site.vercel.app/news1" className="links" rel="noreferrer">
+       
           <div className={styles.card}>
             <h2>Press release one</h2>
+            <a href="https://janes-test-site.vercel.app/news1" className={styles.link} rel="noreferrer">The Link</a>
             <p className={styles.cardDate}>28 July 2023</p>
             <p className={styles.cardCopy}>This is test body content for press release one.</p>
           </div>
-        </a>
 
-        <a href="https://janes-test-site.vercel.app/news2" className="links" rel="noreferrer">
+
+       
           <div className={styles.card}>
             <h2>Press release two</h2>
+            <a href="https://janes-test-site.vercel.app/news2" className={styles.link} rel="noreferrer">The Link</a>
             <p className={styles.cardDate}>28 July 2023</p>
             <p className={styles.cardCopy}>This is test body content for press release two.</p>
           </div>
-        </a>
+
  
     
         </div>
