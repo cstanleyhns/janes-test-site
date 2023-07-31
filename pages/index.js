@@ -19,26 +19,23 @@ export default function Home() {
 
         <div className={styles.grid}>
        
-            <Link href="/news1"  passHref >
-              <a target="_blank" className="links">
-                <div className={styles.card}>
-                  <h2>Press release one</h2>
-                  <p className={styles.cardDate}>28 July 2023</p>
-                  <p className={styles.cardCopy}>This is test body content for press release one.</p>
-                </div>
-              </a>
-            </Link>
-         
-       
-            <Link  href="/news2" target="_blank" passHref>
-              <a target="_blank" className="links">
-                <div className={styles.card}>
-                  <h2>Press release two</h2>
-                  <p className={styles.cardDate}>28 July 2023</p>
-                  <p className={styles.cardCopy}>This is test body content for press release two.</p>
-                </div>
-              </a>
-            </Link>
+          
+        <a href="https://janes-test-site.vercel.app/news1" target="_blank" className="links" rel="noreferrer">
+          <div className={styles.card}>
+            <h2>Press release one</h2>
+            <p className={styles.cardDate}>28 July 2023</p>
+            <p className={styles.cardCopy}>This is test body content for press release one.</p>
+          </div>
+        </a>
+
+        <a href="https://janes-test-site.vercel.app/news2" target="_blank" className="links" rel="noreferrer">
+          <div className={styles.card}>
+            <h2>Press release two</h2>
+            <p className={styles.cardDate}>28 July 2023</p>
+            <p className={styles.cardCopy}>This is test body content for press release two.</p>
+          </div>
+        </a>
+ 
     
         </div>
       </main>
