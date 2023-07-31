@@ -24,8 +24,8 @@ export default function Home() {
           <div className={styles.card}>
             <h2>Press release one</h2>
             <a href="https://janes-test-site.vercel.app/news1" className={styles.link} rel="noreferrer">The Link</a>
-            <p className={styles.cardDate}>28 July 2023</p>
-            <p className={styles.cardCopy}>This is test body content for press release one.</p>
+            <p className={styles.cardDate}>29 July 2023</p>
+            <p className={styles.cardCopy}>This is update 1 test body content for press release one.</p>
           </div>
 
 
@@ -33,8 +33,8 @@ export default function Home() {
           <div className={styles.card}>
             <h2>Press release two</h2>
             <a href="https://janes-test-site.vercel.app/news2" className={styles.link} rel="noreferrer">The Link</a>
-            <p className={styles.cardDate}>28 July 2023</p>
-            <p className={styles.cardCopy}>This is test body content for press release two.</p>
+            <p className={styles.cardDate}>29 July 2023</p>
+            <p className={styles.cardCopy}>This is update 1 test body content for press release two.</p>
           </div>
 
  
