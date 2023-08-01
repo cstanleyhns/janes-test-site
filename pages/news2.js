@@ -13,7 +13,7 @@ export default function News2() {
 
       <main className={styles.main}>
        <h1>Press release 2</h1>
-       <p className={styles.cardDate}>30 July 2023</p>
+       <p className={styles.cardDate}>31 July 2023</p>
        <p className={styles.cardCopy}>This is test content for press release two. Updated 30 July 2023.</p>
       </main>
 
