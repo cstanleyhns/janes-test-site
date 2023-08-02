@@ -1,7 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -18,42 +16,24 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-       
-          
-       
+             
           <div className={styles.card}>
             <h2>Press release one - update 3</h2>
-            <a href="https://janes-test-site.vercel.app/news1" className={styles.link} rel="noreferrer">The Link</a>
+            <a href="https://janes-test-site.vercel.app/news1" className={styles.link} rel="noreferrer">Click here</a>
             <p className={styles.cardDate}>1st Stangust 23</p>
             <p className={styles.cardCopy}>This is update 1 test body content for press release one.</p>
           </div>
-
-
-       
+   
           <div className={styles.card}>
             <h2>Press release two - update 3</h2>
-            <a href="https://janes-test-site.vercel.app/news2" className={styles.link} rel="noreferrer">The Link</a>
+            <a href="https://janes-test-site.vercel.app/news2" className={styles.link} rel="noreferrer">Click here</a>
             <p className={styles.cardDate}>1st Stangust 23</p>
             <p className={styles.cardCopy}>This is update 1 test body content for press release two.</p>
           </div>
 
- 
-    
         </div>
       </main>
 
-      {/* <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer> */}
     </div>
   )
 }
