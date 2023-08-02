@@ -80,6 +80,7 @@
 }
 
 .card {
+  margin: 1rem;
   padding: 1.5rem;
   text-align: left;
   color: inherit;
@@ -90,12 +91,9 @@
   width: 600px;
 }
 
-.mt10 {
-  margin-top: 10px;
-}
-
 .cardDate {
   font-weight: bold;
+  margin-top: 10px;
 }
 
 .link {
