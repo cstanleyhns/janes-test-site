@@ -18,7 +18,7 @@ export default function Home() {
         <div className={styles.grid}>
              
           <div className={styles.card}>
-            <h2>Press release one - update 12</h2>
+            <h2></h2>
             <a href="https://janes-test-site.vercel.app/news1" className={styles.link} rel="noreferrer">Click here</a>
             <p className= {styles.cardDate}>10 August 2023</p>
             <p className={styles.cardCopy}>This is update 13 test body content for press release one.</p>
