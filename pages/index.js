@@ -21,7 +21,7 @@ export default function Home() {
             <h2>Here’s a look</h2>
             <a href="https://janes-test-site.vercel.app/news1" className={styles.link} rel="noreferrer">Click here</a>
             <p className= {styles.cardDate}>10 August 2023</p>
-            <p className={styles.cardCopy}>This is update 13 test body content for press release one. Good apostrophe's and bad apostrophe’s</p>
+            <p className={styles.cardCopy}>This is update 13 test body content for press release one.</p>
           </div>
    
           <div className={styles.card}>
