@@ -14,7 +14,7 @@ export default function News1() {
       <main className={styles.main}>
        <h1>Press releas’ere’s 1 & α β γ</h1>
        <p className={styles.cardDate}>$7.9 billion  Martin’s Test.  Good apostrophes and bad apostrophe’s</p>
-       <p className={styles.cardCopy}>Update 13 - This is test content for press release one. Updated 16 October 2023. Martins Test Update.</p>
+       <p className={styles.cardCopy}>Update 13 - This is test content for press release $one. Updated 16 October 2023. Martins Test Update.</p>
       </main>
 
     </div>
