@@ -13,8 +13,8 @@ export default function News1() {
 
       <main className={styles.main}>
        <h1>Press releas’ere’s 1 & α β γ ; :</h1>
-       <p className={styles.cardDate}>$7.9 billion Martin’s Test. Good apostrophe's and bªd apostrophe’s £5.98</p>
-       <p className={styles.cardCopy}>Updàte 13 - This is test Æcontent for press release $one. ©Updated 16 October 2023. Martins Test Update.2″20′ 1⁄4 & ˜ ’ “</p>
+       <p className={styles.cardDate}>$7.9 billion Martin’s Test. Good apostrophe&apos;s and bªd apostrophe’s £5.98</p>
+       <p className={styles.cardCopy}>Updàte 13 - This is test Æcontent for press release $one. ©Updated 16 October 2023. Martin&apos;s Test Update.2″20′ 1⁄4 & ˜ ’ “</p>
       </main>
 
     </div>
