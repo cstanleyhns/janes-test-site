@@ -12,7 +12,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Test press releases
+          Test press release - NEsa
         </h1>
 
         <div className={styles.grid}>
