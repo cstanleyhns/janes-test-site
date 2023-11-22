@@ -12,8 +12,8 @@ export default function News1() {
       </Head>
 
       <main className={styles.main}>
-       <h1>$7.9 billion U.S. Army test; non- ASCII characters © à Æ; cleanse list (”|“|’|'|`)</h1>
-       <p className={styles.cardDate}>$7.9 billion U.S. Army test; non ASCII characters © à Æ; cleanse list (”|“|’|'|`). £5.98</p>
+       <h1>$7.9 billionn U.S. Army test; non- ASCII characters © à Æ; cleanse list (”|“|’|`&apos;`|`)</h1>
+       <p className={styles.cardDate}>$7.9 billion U.S. Army test; non ASCII characters © à Æ; cleanse list (”|“|’|`&apos;`|`). £5.98</p>
        <p className={styles.cardCopy}>Updàte 13 - This is test Æcontent for press release $one. ©Updated 16 October 2023. Martin&apos;s Test Update.2″20′ 1⁄4 & ˜ ’ “</p>
       </main>
 
