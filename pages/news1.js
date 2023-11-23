@@ -12,7 +12,7 @@ export default function News1() {
       </Head>
 
       <main className={styles.main}>
-       <h1>Cleanse List</h1>
+       <h1>Cleanse List . and $</h1>
        <p className={styles.cardDate}>23 November 2023</p>
        <p className={styles.cardCopy}>
        def default_list(self) -{'>'} List:
