@@ -33,6 +33,8 @@ export default function News1() {
             -,
             !,
             /,
+            ., (dot)
+            $ (dollar)
        </p>
       </main>
 
