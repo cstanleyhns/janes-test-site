@@ -31,6 +31,13 @@ export default function Home() {
             <p className={styles.cardCopy}>This is update 13 test body content for press release two.</p>
           </div>
 
+          <div className={styles.card}>
+            <h2>Sky News</h2>
+            <a href="https://news.sky.com/story/switzerland-has-lost-10-of-its-glaciers-in-just-two-years-in-catastrophic-ice-melt-study-shows-12971493" className={styles.link} rel="noreferrer">Click here</a>
+            <p className= {styles.cardDate}>11 December 2023</p>
+            <p className={styles.cardCopy}>More on Switzerland</p>
+          </div>
+
         </div>
       </main>
 
